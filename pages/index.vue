@@ -99,29 +99,29 @@
 export default {
   name: "Adieu!",
   mounted() {
-    // gsap.from(".load", {
+    gsap.from(".load", {
+      duration: 2,
+      opacity: 0,
+      y: -15,
+      ease: "back",
+      stagger: 0.5,
+      repeat: -1,
+    });
+    // var ld = gsap.timeline({repeat: -1, yoyo: false});
+    // ld.from(".load", {
     //   duration: 2,
     //   opacity: 0,
     //   x: -200,
     //   ease: "back",
     //   stagger: 0.5,
-    //   repeat: -1,
     // });
-    var ld = gsap.timeline({repeat: -1, yoyo: false});
-    ld.from(".load", {
-      duration: 2,
-      opacity: 0,
-      x: -200,
-      ease: "back",
-      stagger: 0.5,
-    });
-    ld.to(".load", {
-      duration: 2,
-      opacity: 0,
-      x: 20,
-      ease: "back",
-      stagger: 0.5,
-    });
+    // ld.to(".load", {
+    //   duration: 2,
+    //   opacity: 0,
+    //   x: 20,
+    //   ease: "back",
+    //   stagger: 0.5,
+    // });
   },
 };
 </script>
