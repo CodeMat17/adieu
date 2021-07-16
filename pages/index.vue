@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-100 w-full">
-    <div class="px-4 py-20 md:py-24 max-w-2xl mx-auto text-center">
+  <div class="bg-gray-100 w-full min-h-screen">
+    <div class="px-4 py-16 max-w-2xl mx-auto text-center">
       <svg
         class="mx-auto h-32 w-32"
         id="color_line"
@@ -72,18 +72,17 @@
           />
         </g>
       </svg>
-      <h1
-        class="
-          font-black
-          text-5xl
-          sm:text-6xl
-          text-blue-900
-          tracking-widest
-          mt-4
-        "
-      >
-        COMING SOON!
-      </h1>
+      <div class="mt-4 text-blue-900">
+        <p class="font-semibold text-2xl tracking-widest">Adieu!</p>
+        <h1 class="font-semibold text-2xl tracking-widest">
+          Sergeant
+        </h1>
+        <h1 class="font-bold text-4xl md:text-5xl tracking-widest">
+          Felix Chukwu
+        </h1>
+        <p class="font-semibold text-xl tracking-widest">(rtd)</p>
+      </div>
+
       <div class="flex items-center justify-center space-x-4 mt-4">
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
@@ -91,7 +90,7 @@
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
       </div>
-      <p class="mt-16 mb-2 text-blue-900 tracking-wider text-lg text-center">
+      <p class="mt-8 mb-2 text-blue-900 tracking-wider text-lg text-center">
         Burial events will be live here on:
       </p>
       <div
