@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100 w-full">
-    <div class="px-4 py-20 max-w-2xl mx-auto text-center">
+    <div class="px-4 py-20 md:py-24 max-w-2xl mx-auto text-center">
       <svg
         class="mx-auto h-32 w-32"
         id="color_line"
@@ -72,7 +72,6 @@
           />
         </g>
       </svg>
-
       <h1
         class="
           font-black
@@ -92,53 +91,57 @@
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
       </div>
+      <p class="mt-16 mb-2 text-blue-900 tracking-wider text-lg text-center">
+        Burial events will be live here on:
+      </p>
       <div
+        class="px-6 py-2 rounded-full border shadow-xl bg-blue-900 inline-block"
+      >
+        <div class="flex items-center justify-center space-x-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4 text-white animate-pulse"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+            />
+          </svg>
+          <h3
+            class="
+              text-red-700
+              tracking-widest
+              text-2xl
+              font-semibold
+              animate-pulsee
+            "
+          >
+            August 19, 2021
+          </h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4 text-white animate-pulse"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+            />
+          </svg>
+        </div>
+      </div>
+      <p
         class="
-          mt-16
-          px-6
-          py-4
-          rounded-full
-          border
-          shadow-xl
-          bg-blue-900
-          inline-block
+          mt-4
+          text-blue-900
+          font-semibold
+          tracking-wider
+          text-lg text-center
         "
       >
-      <div class="flex items-center justify-center space-x-4">
-         <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-4 w-4 text-white animate-pulse"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-          />
-        </svg>
-        <h3
-          class="
-            text-red-700
-            tracking-widest
-            text-2xl
-            font-semibold
-            animate-pulsee
-          "
-        >
-          August 19, 2021
-        </h3>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-4 w-4 text-white animate-pulse"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-          />
-        </svg>
-      </div>
-       
-      </div>
+        PLEASE JOIN US.
+      </p>
     </div>
   </div>
 </template>
