@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100 w-full min-h-screen">
-    <div class="px-4 py-16 max-w-2xl mx-auto text-center">
+    <div class="px-4 py-10 md:pt-32 max-w-2xl mx-auto text-center">
       <svg
         class="mx-auto h-32 w-32"
         id="color_line"
@@ -74,9 +74,7 @@
       </svg>
       <div class="mt-4 text-blue-900">
         <p class="font-semibold text-2xl tracking-widest">Adieu!</p>
-        <h1 class="font-semibold text-2xl tracking-widest">
-          Sergeant
-        </h1>
+        <h1 class="font-semibold text-2xl tracking-widest">Sergeant</h1>
         <h1 class="font-bold text-4xl md:text-5xl tracking-widest">
           Felix Chukwu
         </h1>
@@ -90,8 +88,11 @@
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
         <div class="load w-3 h-3 bg-red-700 rounded-full"></div>
       </div>
-      <p class="mt-8 mb-2 text-blue-900 tracking-wider text-lg text-center">
-        Burial events will be live here on:
+      <p class="shadow-lg mt-8 mb-3 tracking-widest text-red-500 text-xl font-semibold border-b border-red-500 inline-block">
+        WATCH THIS SPACE:
+      </p>
+      <p class="mb-2 text-blue-900 tracking-wider text-lg text-center">
+        Requiem, tributes and photos will be live here on:
       </p>
       <div
         class="px-6 py-2 rounded-full border shadow-xl bg-blue-900 inline-block"
