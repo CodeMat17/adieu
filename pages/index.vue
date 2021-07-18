@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100 w-full min-h-screen">
-    <div class="px-4 py-10 md:pt-32 max-w-2xl mx-auto text-center">
+    <div class="px-4 py-10 md:pt-12 max-w-2xl mx-auto text-center">
       <svg
         class="mx-auto h-32 w-32"
         id="color_line"
